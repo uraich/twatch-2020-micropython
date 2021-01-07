@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # :snake: MicroPython for LilyGO TTGO T-Watch-2020 :snake:
 ************************************************************************
 ## 📄 Description:
