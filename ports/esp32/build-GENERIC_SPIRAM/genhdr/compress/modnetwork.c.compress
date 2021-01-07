@@ -1,0 +1,28 @@
+Wifi Not Initialized
+Wifi Not Started
+Wifi Not Stopped
+Wifi Invalid Interface
+Wifi Invalid Mode
+Wifi Internal State Error
+Wifi Internal Error
+Wifi Internal NVS Error
+Wifi Invalid MAC Address
+Wifi SSID Invalid
+Wifi Invalid Password
+Wifi Wakeup Failure
+Wifi Would Block
+Wifi Not Connected
+TCP/IP Invalid Parameters
+TCP/IP IF Not Ready
+TCP/IP DHCP Client Start Failed
+Wifi Unknown Error 0x%04x
+STA required
+AP required
+invalid WLAN interface identifier
+unknown status param
+STA must be active
+invalid arguments
+either pos or kw args are allowed
+invalid buffer length
+can query only one param
+unknown config param

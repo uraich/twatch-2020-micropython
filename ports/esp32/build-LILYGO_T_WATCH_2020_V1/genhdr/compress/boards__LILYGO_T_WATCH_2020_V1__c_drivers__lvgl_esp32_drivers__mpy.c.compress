@@ -1,0 +1,7 @@
+Can't convert %s to %s!
+Struct argument is not an object!
+Argument is not a struct type!
+Cannot set field %s on struct %s!
+Cannot convert '%s' to pointer!
+Cannot convert %s to pointer! (buffer does not represent a pointer)
+Cast argument must be a type!

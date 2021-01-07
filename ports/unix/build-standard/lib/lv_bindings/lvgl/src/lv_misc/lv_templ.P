@@ -1,0 +1,5 @@
+build-standard/lib/lv_bindings/lvgl/src/lv_misc/lv_templ.o: \
+ ../../lib/lv_bindings/lvgl/src/lv_misc/lv_templ.c \
+ /usr/include/stdc-predef.h
+ ../../lib/lv_bindings/lvgl/src/lv_misc/lv_templ.c :
+ /usr/include/stdc-predef.h :

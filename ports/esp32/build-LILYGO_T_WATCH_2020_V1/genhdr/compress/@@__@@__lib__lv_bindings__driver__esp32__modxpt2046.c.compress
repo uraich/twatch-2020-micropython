@@ -1,0 +1,2 @@
+Failed adding SPI device
+xpt2046 instance needs to be created before callback is called!

@@ -1,0 +1,3 @@
+build-WROVER/bootloader//opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/soc/esp32/soc_memory_layout.o: \
+ /opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/soc/esp32/soc_memory_layout.c
+ /opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/soc/esp32/soc_memory_layout.c :

@@ -1,0 +1,3 @@
+build-GENERIC_SPIRAM//opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.o: \
+ /opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c
+ /opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c :

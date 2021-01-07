@@ -1,0 +1,3 @@
+build-WROVER/lib/lv_bindings/lvgl/src/lv_misc/lv_templ.o: \
+ ../../lib/lv_bindings/lvgl/src/lv_misc/lv_templ.c
+ ../../lib/lv_bindings/lvgl/src/lv_misc/lv_templ.c :

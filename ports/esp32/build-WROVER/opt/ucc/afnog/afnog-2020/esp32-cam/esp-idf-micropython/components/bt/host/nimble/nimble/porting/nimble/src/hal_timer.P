@@ -1,0 +1,3 @@
+build-WROVER//opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/bt/host/nimble/nimble/porting/nimble/src/hal_timer.o: \
+ /opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/bt/host/nimble/nimble/porting/nimble/src/hal_timer.c
+ /opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/bt/host/nimble/nimble/porting/nimble/src/hal_timer.c :

@@ -1,0 +1,11 @@
+invalid configuration
+SPI device already freed
+invalid configuration
+SPI bus already freed
+SPI ID must be either HSPI(1) or VSPI(2)
+invalid configuration
+SPI host already in use
+invalid configuration
+out of memory
+no free slots
+transfer on deinitialized SPI

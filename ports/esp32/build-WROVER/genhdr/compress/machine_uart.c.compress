@@ -1,0 +1,5 @@
+invalid data bits
+invalid stop bits
+invalid inversion mask
+UART(%d) does not exist
+UART(%d) is disabled (dedicated to REPL)

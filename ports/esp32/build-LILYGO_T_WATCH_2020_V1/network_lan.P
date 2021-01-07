@@ -1,0 +1,2 @@
+build-LILYGO_T_WATCH_2020_V1/network_lan.o: network_lan.c
+network_lan.c :

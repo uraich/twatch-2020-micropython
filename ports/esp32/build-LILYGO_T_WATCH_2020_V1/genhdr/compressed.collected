@@ -1,0 +1,885 @@
+%c needs int or char
+
+%q index out of range
+
+%q indices must be integers, not %s
+
+'%q' argument required
+
+'%s' object doesn't support item assignment
+
+'%s' object doesn't support item deletion
+
+'%s' object has no attribute '%q'
+
+'%s' object has no attribute '%q'
+
+'%s' object isn't an iterator
+
+'%s' object isn't an iterator
+
+'%s' object isn't callable
+
+'%s' object isn't callable
+
+'%s' object isn't iterable
+
+'%s' object isn't subscriptable
+
+'=' alignment not allowed in string format specifier
+
+'await' outside function
+
+'break'/'continue' outside loop
+
+'return' outside function
+
+'yield' outside function
+
+*x must be assignment target
+
+0.0 to a complex power
+
+AP required
+
+Argument is not a struct type!
+
+Argument is not a struct type!
+
+Argument is not a struct type!
+
+Argument is not a struct type!
+
+Argument is not a struct type!
+
+Argument is not a struct type!
+
+Can't convert %s to %s!
+
+Can't convert %s to %s!
+
+Can't convert %s to %s!
+
+Can't convert %s to %s!
+
+Can't convert %s to %s!
+
+Can't convert %s to %s!
+
+Cannot convert %s to pointer! (buffer does not represent a pointer)
+
+Cannot convert %s to pointer! (buffer does not represent a pointer)
+
+Cannot convert %s to pointer! (buffer does not represent a pointer)
+
+Cannot convert %s to pointer! (buffer does not represent a pointer)
+
+Cannot convert %s to pointer! (buffer does not represent a pointer)
+
+Cannot convert %s to pointer! (buffer does not represent a pointer)
+
+Cannot convert '%s' to pointer!
+
+Cannot convert '%s' to pointer!
+
+Cannot convert '%s' to pointer!
+
+Cannot convert '%s' to pointer!
+
+Cannot convert '%s' to pointer!
+
+Cannot convert '%s' to pointer!
+
+Cannot set field %s on struct %s!
+
+Cannot set field %s on struct %s!
+
+Cannot set field %s on struct %s!
+
+Cannot set field %s on struct %s!
+
+Cannot set field %s on struct %s!
+
+Cannot set field %s on struct %s!
+
+Cast argument must be a type!
+
+Cast argument must be a type!
+
+Cast argument must be a type!
+
+Cast argument must be a type!
+
+Cast argument must be a type!
+
+Cast argument must be a type!
+
+Channel Format is not valid
+
+DMA Buffer Count is not valid.  Allowed range is [2, 128]
+
+DMA Buffer Length is not valid.  Allowed range is [8, 1024]
+
+Data Format is not valid
+
+Failed adding SPI device
+
+Failed adding SPI device
+
+Failed creating RTCH task
+
+Failed initializing SPI bus
+
+I/O operation on closed file
+
+I2C operation not supported
+
+I2C operation not supported
+
+I2C operation not supported
+
+I2C operation not supported
+
+I2C operation not supported
+
+I2C(%d) doesn't exist
+
+I2S ID is not valid
+
+I2S driver install:  Out of memory
+
+I2S driver install:  Parameter error
+
+I2S driver install:  Undocumented error
+
+I2S not configured for read method
+
+I2S not configured for write method
+
+I2S port is already in use
+
+I2S port is not initialized
+
+I2S port is not initialized
+
+I2S read:  Parameter error
+
+I2S read:  Undocumented error
+
+I2S set pin:  IO error
+
+I2S set pin:  Parameter error
+
+I2S set pin:  Undocumented error
+
+I2S write: Parameter error
+
+I2S write: Undocumented error
+
+IV
+
+IV
+
+LHS of keyword arg must be an id
+
+Only Master Rx or Master Tx Modes are supported
+
+PWM not supported on pin %d
+
+SPI ID must be either HSPI(1) or VSPI(2)
+
+SPI bus already freed
+
+SPI device already freed
+
+SPI host already in use
+
+STA must be active
+
+STA required
+
+Standard is not valid
+
+Struct argument is not an object!
+
+Struct argument is not an object!
+
+Struct argument is not an object!
+
+Struct argument is not an object!
+
+Struct argument is not an object!
+
+Struct argument is not an object!
+
+TCP/IP DHCP Client Start Failed
+
+TCP/IP IF Not Ready
+
+TCP/IP Invalid Parameters
+
+Touch pad error
+
+Touch pad error
+
+Touch pad error
+
+UART(%d) does not exist
+
+UART(%d) is disabled (dedicated to REPL)
+
+UUID
+
+UUID
+
+UUID too long
+
+UUID too short
+
+WDT timeout too short
+
+Wifi Internal Error
+
+Wifi Internal NVS Error
+
+Wifi Internal State Error
+
+Wifi Invalid Interface
+
+Wifi Invalid MAC Address
+
+Wifi Invalid Mode
+
+Wifi Invalid Password
+
+Wifi Not Connected
+
+Wifi Not Initialized
+
+Wifi Not Started
+
+Wifi Not Stopped
+
+Wifi SSID Invalid
+
+Wifi Unknown Error 0x%04x
+
+Wifi Wakeup Failure
+
+Wifi Would Block
+
+__init__() should return None, not '%s'
+
+abort() called
+
+address %08x is not aligned to %d bytes
+
+annotation must be an identifier
+
+arg is an empty sequence
+
+arg must be user-type
+
+arg must be user-type
+
+arg must be user-type
+
+argument has wrong type
+
+argument name reused
+
+argument num/types mismatch
+
+array/bytes required on right side
+
+attributes not supported yet
+
+bad compile mode
+
+bad conversion specifier
+
+bad frequency %d
+
+bad frequency %d
+
+bad typecode
+
+bad wake value
+
+bad wake value
+
+binary op %q not implemented
+
+bits must be 8
+
+blksize % 16
+
+buffer too long
+
+buffer too small
+
+buffer too small
+
+buffer too small
+
+buffer too small
+
+buffer too small
+
+buffers must be the same length
+
+bytes value out of range
+
+can query only one param
+
+can't add special method to already-subclassed class
+
+can't assign to expression
+
+can't assign to expression
+
+can't assign to expression
+
+can't cancel self
+
+can't convert %s to complex
+
+can't convert %s to float
+
+can't convert %s to int
+
+can't convert '%q' object to %q implicitly
+
+can't convert NaN to int
+
+can't convert inf to int
+
+can't create '%q' instances
+
+can't create thread
+
+can't declare nonlocal in outer code
+
+can't delete expression
+
+can't do binary op between '%q' and '%q'
+
+can't encrypt & decrypt
+
+can't have multiple **x
+
+can't have multiple *x
+
+can't implicitly convert '%q' to 'bool'
+
+can't import name %q
+
+can't load from '%q'
+
+can't load from '%q'
+
+can't load with '%q' index
+
+can't perform relative import
+
+can't send non-None value to a just-started generator
+
+can't set attribute
+
+can't specify pos and kw args
+
+can't store '%q'
+
+can't store '%q'
+
+can't store to '%q'
+
+can't store to '%q'
+
+can't store with '%q' index
+
+can't switch from automatic field numbering to manual field specification
+
+can't switch from manual field specification to automatic field numbering
+
+can't truncate-divide a complex number
+
+can't unambiguously get sizeof scalar
+
+casting
+
+chr() arg not in range(0x110000)
+
+clock_div must be between 1 and 255
+
+comparison of int and uint
+
+complex divide by zero
+
+compression header
+
+connect failed
+
+constant must be an integer
+
+conversion to object
+
+default 'except' must be last
+
+dict update sequence has wrong length
+
+div/mod not implemented for uint
+
+divide by zero
+
+divide by zero
+
+divide by zero
+
+divide by zero
+
+either pos or kw args are allowed
+
+empty
+
+empty heap
+
+empty heap
+
+empty heap
+
+empty heap
+
+empty separator
+
+empty separator
+
+empty separator
+
+error in regex
+
+esp_sleep_enable_touchpad_wakeup() failed
+
+exceptions must derive from BaseException
+
+expected ':' after format specifier
+
+expecting a dict for keyword args
+
+expecting a pin
+
+expecting just a value for set
+
+expecting key:value for dict
+
+extra keyword arguments given
+
+extra positional arguments given
+
+failed to create worker task
+
+firstbit must be MSB
+
+format needs a dict
+
+format string didn't convert all arguments
+
+format string needs more arguments
+
+frequency must be 20MHz, 40MHz, 80Mhz, 160MHz or 240MHz
+
+full
+
+function doesn't take keyword arguments
+
+function expected at most %d arguments, got %d
+
+function got multiple values for argument '%q'
+
+function got multiple values for argument '%q'
+
+function missing %d required positional arguments
+
+function missing keyword-only argument
+
+function missing required keyword argument '%q'
+
+function missing required positional argument #%d
+
+function takes %d positional arguments but %d were given
+
+function takes %d positional arguments but %d were given
+
+function takes %d positional arguments but %d were given
+
+generator already executing
+
+generator already executing
+
+generator ignored GeneratorExit
+
+generator raised StopIteration
+
+generator raised StopIteration
+
+heap must be a list
+
+identifier redefined as global
+
+identifier redefined as nonlocal
+
+import * not at module level
+
+incompatible .mpy arch
+
+incompatible .mpy file
+
+incomplete format
+
+incomplete format key
+
+incorrect padding
+
+indev instance needs to be created before callback is called!
+
+init failed
+
+int() arg 2 must be >= 2 and <= 36
+
+integer needed
+
+invalid Pin for ADC
+
+invalid Pin for DAC
+
+invalid UUID
+
+invalid WLAN interface identifier
+
+invalid addr
+
+invalid addrsize
+
+invalid arguments
+
+invalid arguments
+
+invalid auth
+
+invalid buffer length
+
+invalid cert
+
+invalid char in UUID
+
+invalid characteristic UUID
+
+invalid characteristic tuple
+
+invalid configuration
+
+invalid configuration
+
+invalid configuration
+
+invalid configuration
+
+invalid data bits
+
+invalid descriptor UUID
+
+invalid dupterm index
+
+invalid format
+
+invalid format specifier
+
+invalid handler
+
+invalid inversion mask
+
+invalid key
+
+invalid micropython decorator
+
+invalid micropython decorator
+
+invalid pin
+
+invalid pin
+
+invalid pin
+
+invalid pin for touchpad
+
+invalid pin for wake
+
+invalid service UUID
+
+invalid stop bits
+
+invalid syntax
+
+invalid syntax
+
+invalid syntax
+
+invalid syntax for integer with base %d
+
+invalid syntax for number
+
+issubclass() arg 1 must be a class
+
+issubclass() arg 2 must be a class or a tuple of classes
+
+join expects a list of str/bytes objects consistent with self object
+
+key
+
+keyword argument(s) not yet implemented - use normal args instead
+
+lhs and rhs should be compatible
+
+local '%q' has type '%q' but source is '%q'
+
+local '%q' used before type known
+
+local variable referenced before assignment
+
+math domain error
+
+memory allocation failed, allocating %u bytes
+
+memory allocation failed, heap is locked
+
+mktime needs a tuple of length 8 or 9 (%d given)
+
+mode
+
+multiple *x in assignment
+
+multiple bases have instance lay-out conflict
+
+must be active
+
+must query one param
+
+must raise an object
+
+must specify all of sck/mosi/miso
+
+must use keyword argument for key function
+
+name '%q' isn't defined
+
+name too long
+
+native yield
+
+need more than %d values to unpack
+
+need more than %d values to unpack
+
+negative shift count
+
+negative shift count
+
+negative shift count
+
+no active exception to reraise
+
+no binding for nonlocal found
+
+no free slots
+
+no module named '%q'
+
+no resources
+
+no resources
+
+no resources
+
+no resources
+
+no such attribute
+
+non-default argument follows default argument
+
+non-hex digit found
+
+non-keyword arg after */**
+
+non-keyword arg after keyword arg
+
+object '%s' isn't a tuple or list
+
+object not in sequence
+
+object of type '%s' has no len()
+
+object with buffer protocol required
+
+odd-length string
+
+only one of sdin or sdout can be specified
+
+only slices with step=1 (aka None) are supported
+
+only slices with step=1 (aka None) are supported
+
+only slices with step=1 (aka None) are supported
+
+only slices with step=1 (aka None) are supported
+
+opcode
+
+ord() expected a character, but string of length %d found
+
+out of PWM channels
+
+out of memory
+
+output too small
+
+overflow converting long int to machine word
+
+overflow converting long int to machine word
+
+parameter error
+
+parameter error
+
+parameter error
+
+parameter error
+
+parameter error
+
+parameter error
+
+pin can only be input
+
+pop from an empty set
+
+pop from empty list
+
+popitem(): dictionary is empty
+
+pow() with 3 arguments requires integers
+
+queue overflow
+
+requested length %d but object has length %d
+
+return expected '%q' but got '%q'
+
+rsplit(None,n)
+
+schedule queue full
+
+sdin must be specified for RX mode
+
+sdout must be specified for TX mode
+
+set default failed
+
+sign not allowed in string format specifier
+
+sign not allowed with integer format specifier 'c'
+
+single '}' encountered in format string
+
+slice step can't be zero
+
+slot number must be between 0 and 3 inclusive
+
+splitting with sub-captures
+
+start must be 0 or 1
+
+start/end indices
+
+stream operation not supported
+
+string index out of range
+
+string index out of range
+
+string indices must be integers, not %s
+
+struct: can't index
+
+struct: index out of range
+
+struct: no fields
+
+substring not found
+
+super() can't find self
+
+syntax error in JSON
+
+syntax error in uctypes descriptor
+
+too many values to unpack (expected %d)
+
+transfer on deinitialized SPI
+
+tuple index out of range
+
+tuple index out of range
+
+type '%q' isn't an acceptable base type
+
+type object '%q' has no attribute '%q'
+
+type takes 1 or 3 arguments
+
+unary op %q not implemented
+
+unexpected indent
+
+unexpected keyword argument '%q'
+
+unexpected keyword argument '%q'
+
+unicode name escapes
+
+unindent doesn't match any outer indent level
+
+unknown config param
+
+unknown config param
+
+unknown config param
+
+unknown format code '%c' for object of type '%s'
+
+unknown format code '%c' for object of type '%s'
+
+unknown format code '%c' for object of type '%s'
+
+unknown status param
+
+unknown type '%q'
+
+unmatched '{' in format
+
+unreadable attribute
+
+unsupported format character '%c' (0x%x) at index %d
+
+unsupported type for %q: '%s'
+
+unsupported types for %q: '%s', '%s'
+
+value out of range
+
+width must be 1 or 4 (or 8 on slot 0)
+
+wrong number of arguments
+
+xpt2046 instance needs to be created before callback is called!
+
+zero step
