@@ -1,3 +1,0 @@
-build-LILYGO_T_WATCH_2020_V1//opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/wpa_supplicant/src/eap_peer/chap.o: \
- /opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/wpa_supplicant/src/eap_peer/chap.c
- /opt/ucc/afnog/afnog-2020/esp32-cam/esp-idf-micropython/components/wpa_supplicant/src/eap_peer/chap.c :

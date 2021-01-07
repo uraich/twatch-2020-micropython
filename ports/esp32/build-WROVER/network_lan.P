@@ -1,2 +1,0 @@
-build-WROVER/network_lan.o: network_lan.c
-network_lan.c :
