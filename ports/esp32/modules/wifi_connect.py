@@ -7,10 +7,10 @@ from ntptime import settime
 
 def connect(ssid=None,password=None,hostname=None):
     encoding          ='utf-8'
-    ssid_Lochau       = "WLAN18074253"
-    password_Lochau   =  "Q4k6V35sFauw"
-    ssid_Sauverny     = "SFR_A0F0_EXT"
-    password_Sauverny =  "osto7rawayristaxtris"
+    ssid_Lochau       = "mywifi1"
+    password_Lochau   =  "mypassword1"
+    ssid_Sauverny     = "mywifi2"
+    password_Sauverny =  "mypasswword"
     
     station = network.WLAN(network.STA_IF)
     if station.isconnected() == True:
