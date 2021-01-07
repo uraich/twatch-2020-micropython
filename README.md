@@ -1,4 +1,12 @@
 # :snake: MicroPython for LilyGO TTGO T-Watch-2020 :snake:
+This is essentially a fork of https://github.com/OPHoperHPO/lilygo-ttgo-twatch-2020-micropython
+However, the Makefile has been modified: Use:
+
+make -f Make_TWATCH to build
+
+In addition lv_bindings and lvgl have been updated and Mike Teachman's i2s driver been integrated into the code
+
+Here is OPHoperHPO's README
 ************************************************************************
 ## 📄 Description:
 This is a fork of the official version of the micropython v1.12 with **bluetooth support**. \
@@ -36,14 +44,6 @@ This micropython fork is **SPECIALLY** sharpened and designed for LilyGO TTGO T-
    Was taken from [here](https://github.com/haxplore/ESP32_RMT_IRLib).
 > Examples of using these libraries are located in the `examples/ttgo/` folder \
 > For api look `ports/esp32/boards/LILYGO_T_WATCH_2020_V1` folder
-************************************************************************
-## :arrow_down: Download prebuild firmware:
-**[Download](https://github.com/OPHoperHPO/lilygo-ttgo-twatch-2020-micropython/releases/download/1.2/firmware.bin)**
-### Versions of the programs that were used to build the image:
-1. **ESP-IDF** - 4.0
-2. **Micropython** - 1.12
-3. **lvgl** - 7.*
-> See the `latest` branch for the latest micropython version.
 ************************************************************************
 ## 🔨 Build Instructions
 ### 🧷 WARNING:
