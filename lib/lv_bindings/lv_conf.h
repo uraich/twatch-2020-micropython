@@ -1,6 +1,6 @@
 /**
  * @file lv_conf.h
- * Configuration file for LVGL v7.1.0
+ * Configuration file for LVGL v7.9.1
  */
 
 /*
@@ -19,8 +19,8 @@
  *====================*/
 
 /* Maximal horizontal and vertical resolution to support by the library.*/
-#define LV_HOR_RES_MAX          (240)
-#define LV_VER_RES_MAX          (240)
+#define LV_HOR_RES_MAX          (480)
+#define LV_VER_RES_MAX          (320)
 
 /* Color depth:
  * - 1:  1 byte per pixel
@@ -29,14 +29,12 @@
  * - 32: ARGB8888
  */
 #ifndef LV_COLOR_DEPTH
-#define LV_COLOR_DEPTH     16
+#define LV_COLOR_DEPTH     32
 #endif
 
 /* Swap the 2 bytes of RGB565 color.
  * Useful if the display has a 8 bit interface (e.g. SPI)*/
-#ifndef LV_COLOR_16_SWAP
-#define LV_COLOR_16_SWAP   1
-#endif
+/* #define LV_COLOR_16_SWAP   1 */
 
 /* 1: Enable screen transparency.
  * Useful for OSD or other overlapping GUIs.

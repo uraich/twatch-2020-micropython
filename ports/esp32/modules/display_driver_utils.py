@@ -100,14 +100,15 @@ class driver:
             from axp_constants import AXP202_VBUS_VOL_ADC1,AXP202_VBUS_CUR_ADC1,AXP202_BATT_CUR_ADC1,AXP202_BATT_VOL_ADC1
                 
             watch = ttgo.Watch()
-            tft = watch.tft
-            power = watch.pmu
-            power.adc1Enable(AXP202_VBUS_VOL_ADC1
-                             | AXP202_VBUS_CUR_ADC1 
-                             | AXP202_BATT_CUR_ADC1
-                             | AXP202_BATT_VOL_ADC1, True)
-            watch.lvgl_begin()
-            watch.tft.backlight_fade(100)
+            self.watch = watch
+            self.tft = watch.tft
+            self.power = watch.pmu
+            self.power.adc1Enable(AXP202_VBUS_VOL_ADC1
+                                  | AXP202_VBUS_CUR_ADC1 
+                                  | AXP202_BATT_CUR_ADC1
+                                  | AXP202_BATT_VOL_ADC1, True)
+            self.watch.lvgl_begin()
+            self.watch.tft.backlight_fade(100)
 
             self.type="t-watch"            
             print("Running lvgl on the LilyGo t-watch 2020")
