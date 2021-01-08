@@ -28,7 +28,7 @@
  * - 16: RGB565
  * - 32: ARGB8888
  */
-#ifndef LV_COLOR_DEPTH
+#ifndef  LV_COLOR_DEPTH
 #define LV_COLOR_DEPTH     32
 #endif
 
@@ -83,7 +83,7 @@ typedef int16_t lv_coord_t;
 /* Size of the memory used by `lv_mem_alloc` in bytes (>= 2kB)*/
 #  define LV_MEM_SIZE    (32U * 1024U)
 
-/* Complier prefix for a big array declaration */
+/* Compiler prefix for a big array declaration */
 #  define LV_MEM_ATTR
 
 /* Set an address for the memory pool instead of allocating it as an array.
@@ -161,6 +161,15 @@ typedef void * lv_anim_user_data_t;
  * Caching has LV_SHADOW_CACHE_SIZE^2 RAM cost*/
 #define LV_SHADOW_CACHE_SIZE    0
 #endif
+
+/*1: enable outline drawing on rectangles*/
+#define LV_USE_OUTLINE  1
+
+/*1: enable pattern drawing on rectangles*/
+#define LV_USE_PATTERN  1
+
+/*1: enable value string drawing on rectangles*/
+#define LV_USE_VALUE_STR    1
 
 /* 1: Use other blend modes than normal (`LV_BLEND_MODE_...`)*/
 #define LV_USE_BLEND_MODES      1
@@ -291,11 +300,11 @@ typedef void * lv_indev_drv_user_data_t;            /*Type of user data in the i
  * LV_LOG_LEVEL_ERROR       Only critical issue, when the system may fail
  * LV_LOG_LEVEL_NONE        Do not log anything
  */
-#  define LV_LOG_LEVEL    LV_LOG_LEVEL_WARN
+#define LV_LOG_LEVEL    LV_LOG_LEVEL_WARN
 
 /* 1: Print the log with 'printf';
  * 0: user need to register a callback with `lv_log_register_print_cb`*/
-#  define LV_LOG_PRINTF   0
+#define LV_LOG_PRINTF   0
 #endif  /*LV_USE_LOG*/
 
 /*=================
@@ -357,7 +366,7 @@ typedef void * lv_indev_drv_user_data_t;            /*Type of user data in the i
 #define LV_FONT_MONTSERRAT_22    0
 #define LV_FONT_MONTSERRAT_24    1
 #define LV_FONT_MONTSERRAT_26    0
-#define LV_FONT_MONTSERRAT_28    0
+#define LV_FONT_MONTSERRAT_28    1
 #define LV_FONT_MONTSERRAT_30    0
 #define LV_FONT_MONTSERRAT_32    1
 #define LV_FONT_MONTSERRAT_34    0
