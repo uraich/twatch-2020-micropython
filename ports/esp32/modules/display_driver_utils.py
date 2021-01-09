@@ -96,22 +96,21 @@ class driver:
 
     def init_gui_twatch(self):
 
-            import ttgo
-            from axp_constants import AXP202_VBUS_VOL_ADC1,AXP202_VBUS_CUR_ADC1,AXP202_BATT_CUR_ADC1,AXP202_BATT_VOL_ADC1
+        import ttgo
+        from axp_constants import AXP202_VBUS_VOL_ADC1,AXP202_VBUS_CUR_ADC1,AXP202_BATT_CUR_ADC1,AXP202_BATT_VOL_ADC1
                 
-            watch = ttgo.Watch()
-            self.watch = watch
-            self.tft = watch.tft
-            self.power = watch.pmu
-            self.power.adc1Enable(AXP202_VBUS_VOL_ADC1
-                                  | AXP202_VBUS_CUR_ADC1 
-                                  | AXP202_BATT_CUR_ADC1
-                                  | AXP202_BATT_VOL_ADC1, True)
-            self.watch.lvgl_begin()
-            self.watch.tft.backlight_fade(100)
-
-            self.type="t-watch"            
-            print("Running lvgl on the LilyGo t-watch 2020")
+        self.watch = ttgo.Watch()
+        self.tft = self.watch.tft
+        self.power = self.watch.pmu
+        self.power.adc1Enable(AXP202_VBUS_VOL_ADC1
+                         | AXP202_VBUS_CUR_ADC1 
+                         | AXP202_BATT_CUR_ADC1
+                         | AXP202_BATT_VOL_ADC1, True)
+        self.watch.lvgl_begin()
+        self.watch.tft.backlight_fade(100)
+        
+        self.type="t-watch"            
+        print("Running lvgl on the LilyGo t-watch 2020")
             
     def init_gui(self):
         

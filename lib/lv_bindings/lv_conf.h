@@ -19,9 +19,12 @@
  *====================*/
 
 /* Maximal horizontal and vertical resolution to support by the library.*/
+#ifndef LV_HOR_RES_MAX
 #define LV_HOR_RES_MAX          (480)
+#endif
+#ifndef LV_VER_RES_MAX
 #define LV_VER_RES_MAX          (320)
-
+#endif
 /* Color depth:
  * - 1:  1 byte per pixel
  * - 8:  RGB332
